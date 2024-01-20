@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.multiCursorLimit": 100000,
+    "editor.smoothScrolling": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "editor.lineHeight": 2
+}

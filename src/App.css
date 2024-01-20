@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+.homeLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.homeLogo img {
+  height: 90px;
+  object-fit: contain;
+  /* border: 2px solid red; */
+  margin-left: -28px;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  margin-bottom: 14px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transform: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background: #1ee69d;
+  width: 90px;
+  margin-left: auto;
+}
+
+.joinBtn:hover {
+  background: #2f9f76;
+}
+
+.createInfo {
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.createInfo a {
+  color: #1ee69d;
+  text-decoration: none;
+  border-bottom: 1px solid #1ee69d;
+  transform: all 0.3s ease-in-out;
+}
+
+.createInfo a:hover,
+.homeFooter a:hover {
+  color: #2f9f76;
+}
+
+.homeFooter {
+  position: absolute;
+  bottom: 15px;
+  color: white;
+}
+
+.homeFooter a {
+  color: #1ee69d;
+}
+
+/* EDITOR CSS START  */
+
+.mainWrap {
+  height: calc(100vh - 12px);
+  display: flex;
+  /* margin: 10px; */
+}
+
+.aside {
+  background-color: #1c1e29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  max-width: 230px;
+  min-width: 230px;
+  height: 100vh;
+}
+
+.logo {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #424242;
+  margin-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+  object-fit: contain;
+  margin-left: -18px;
+}
+
+.connected {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.clientList {
+  gap: 20px;
+  max-height: 330px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding-right: 0; */
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #bbb #f5f5f5; /* For Firefox */
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 4px;
+  }
+}
+
+
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client .username{
+  font-size: 14px;
+  font: bold;
+  margin-top: 10px;
+}
+
+.editorBtns{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.copyBtn{
+  width: 100%;
+  font-size: 12.5px;
+  padding: 8px;
+  border-radius: 6px;
+}
+.leaveBtn{
+  width: 100%;
+  font-size: 12.5px;
+  padding: 8px;
+  background: #1ee69d;
+  border-radius: 6px;
+}
+
+.leaveBtn:hover {
+  background: #2f9f76;
+}
+
+.editorWrap {
+  flex: 1;
+  background-color: #23252e;
+}
+

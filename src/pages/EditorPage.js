@@ -18,7 +18,7 @@ const EditorPage = () => {
       socketRef.current = await initSocket();
       socketRef.current.on("connect_error", (err) => handleErrors(err));
       socketRef.current.on("connect_failed", (err) => handleErrors(err));
-
+      
       function handleErrors(e) {
         console.log("socket error ", e);
         toast.error("Socket Connection Failed, try again!");
@@ -48,7 +48,7 @@ const EditorPage = () => {
       })
 
     }
-    init();
+    init(); 
     return () => {
       socketRef.current.disconnect();
       socketRef.current.off(ACTIONS.JOINED);      
@@ -81,7 +81,7 @@ const EditorPage = () => {
         </div>
       </div>
       <div className='editorWrap'>
-        <Editor />
+        <Editor socketRef = {socketRef} roomId={roomId}/>
       </div>
     </div>
   )

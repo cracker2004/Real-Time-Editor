@@ -1,1 +1,1 @@
-console.log(`Socket connected ${socket.id}`)
+socketId

@@ -40,7 +40,7 @@ const Home = () => {
     <div className='homePageWrapper'>
       <div className='formWrapper'>
         <div className='homeLogo'>
-          <img src="/code-editor.png" alt="code-editor" />
+          <img src="/logo1.png" alt="code-editor" />
         </div>
         <h4 className='mainLabel'>Paste invitation ROOM ID</h4>
         <div className='inputGroup'>

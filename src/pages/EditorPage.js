@@ -85,7 +85,7 @@ const EditorPage = () => {
       <div className='aside'>
         <div className='asideInner'>
           <div className='logo'>
-            <img className='logoImage' src="/code-editor.png" alt="logo" />
+            <img className='logoImage' src="/logo-editor.png" alt="logo" />
           </div>
           <h3 className='connected'>Connected</h3>
           <div className='clientList'>

@@ -27,8 +27,9 @@
   margin-bottom: 30px;
 }
 .homeLogo img {
-  height: 90px;
-  object-fit: contain;
+  height: 80px;
+  width: 400px;
+  object-fit: cover;
   /* border: 2px solid red; */
   margin-left: -28px;
 }
@@ -126,18 +127,22 @@
 }
 
 .logo {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #424242;
-  margin-bottom: 10px;
+  /* border: 2px solid red; */
+  margin-left: -60px;
 }
 
 .logoImage {
-  height: 60px;
-  object-fit: contain;
-  margin-left: -18px;
+  height: 70px;
+  width: 300px;
+  object-fit: cover;
+  /* margin-left: -18px; */
 }
 
 .connected {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #424242;
+  /* border-top: 1; */
   font-size: 21px;
   margin-bottom: 20px;
 }

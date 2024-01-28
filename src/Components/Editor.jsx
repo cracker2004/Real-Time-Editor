@@ -19,7 +19,6 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
           autoCloseTags: true,
           autoCloseBrackets: true,
           lineNumbers: true,
-          passive: true,
         }
       );
       editorRef.current.on("change", (instance, change) => {
